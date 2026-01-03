@@ -1,0 +1,3 @@
+taskkill /f /im script.exe
+reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v WindowsService /f
